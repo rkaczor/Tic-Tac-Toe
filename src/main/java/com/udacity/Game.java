@@ -156,7 +156,7 @@ public class Game {
         String result = "None";
         //Student code goes here ...
         //pionowo
-        for (int i = 1; i < 3; i++){
+        for (int i = 0; i < 3; i++){
             if (grid[i][0] == grid[i][1] && grid[i][1] == grid[i][2] && (grid[i][2] == 'o' || grid[i][2] == 'x')){
                 char cname = grid[i][2];
                 String name = String.valueOf(cname);
